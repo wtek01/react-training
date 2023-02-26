@@ -1,0 +1,19 @@
+.index{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+}
+
+.link {
+    cursor: pointer;
+    color: rgb(39, 54, 218);
+    font-weight: bold;
+}
+
+.link:hover{
+    text-decoration: underline;
+    color: rgb(62, 149, 231);
+}
+  
+  

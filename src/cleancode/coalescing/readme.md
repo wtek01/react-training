@@ -1,0 +1,1 @@
+The nullish coalescing operator ?? is a logical operator that returns its right-hand side operand when its left-hand side operand is null or undefined, and otherwise returns its left-hand side operand. The Nullish Coalescing Operator is handy when you want to use falsy values as a default. Or simply when you treat the falsy values as valid ones
