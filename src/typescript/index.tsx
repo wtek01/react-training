@@ -27,10 +27,16 @@ const UserCounter = ({
 }: UserCounterProps) => {
   const [count, setCount] = useState<number>(defaultCount);
   return (
-    <div {...props}>
-      <p>Username : {username}</p>
-      <p>Email : {email}</p>
-      <button onClick={() => setCount((c) => c + 1)}>{count}</button>
-    </div>
+    <>
+      <div {...props}>
+        <p>Username : {username}</p>
+        <p>Email : {email}</p>
+        <button onClick={() => setCount((c) => c + 1)}>{count}</button>
+      </div>
+      <p>
+        Utilisation de ComponentPropsWithoutRef pour pouvoir récupérer toutes
+        les props d'un div ou d'un bouton..
+      </p>
+    </>
   );
 };
