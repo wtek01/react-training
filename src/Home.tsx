@@ -30,6 +30,13 @@ export function Home() {
       >
         Components
       </div>
+      <div
+        onClick={() => navigate("/typescript")}
+        aria-hidden="true"
+        className="link"
+      >
+        TypeScript
+      </div>
     </div>
   );
 }

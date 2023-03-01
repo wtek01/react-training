@@ -14,6 +14,7 @@ const StopUsingUseEffect = lazy(
 const Components = lazy(() => import("../components"));
 const MultiFilters = lazy(() => import("../components/Multifilters"));
 const WidgetsLayout = lazy(() => import("../components/WidgetsLayout"));
+const TypeScript = lazy(() => import("../typescript"));
 
 const routes = () => [
   {
@@ -81,6 +82,12 @@ const routes = () => [
     component: () => <WidgetsLayout />,
     name: "Widgets",
     path: `${import.meta.env.BASE_URL}/widgets`,
+  },
+  {
+    isVisible: true,
+    component: () => <TypeScript />,
+    name: "TypeScript",
+    path: `${import.meta.env.BASE_URL}/typeScript`,
   },
 ];
 
